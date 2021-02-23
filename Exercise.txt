@@ -1,0 +1,39 @@
+mkdir first
+
+cd first
+
+touch person.txt
+
+mv person.txt another.txt
+
+cp another.txt copy.txt
+
+rm copy.txt
+
+cp -r first second
+
+rm -rf second
+
+Dictonary for system commands / call && UP and Down && type Q
+
+-a      Include directory entries whose names begin with a dot (.).
+-l      List in long format.  (See below.)  If the output is to a terminal, 
+    a total sum for all the file sizes is output on a line before the long listing.
+
+option left and right
+
+control + e
+
+control + a
+
+control + w
+
+Shell is what handles system calls and the terminal is just to interact with the enviorment
+
+An absolute path is a path that starts from the root route and gives the complete location for a file or folder
+
+A relative path is a path that starts at the current location and not the root route
+
+A flag adds additional functionality to an existing command
+
+rf remove's the file or folder recursively and forced
